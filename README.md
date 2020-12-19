@@ -1,13 +1,15 @@
 # Scalperist
-Бот торгует на высоковолатильных рынках. Изменение свечи на более чем 0.1% влечет за собой создание ордеров противоположных движению свечи. 
-- Тейк: 0.12%.
-- Используемое плечо: Cross.
+Language: [Ru](https://github.com/BlndMrn/Scalperist/blob/main/readme/readme.ru.md)  
+[Trades example](https://www.youtube.com/watch?v=ys-YOsoCF34)  
+Bot trades on high volatility markets.  Price change on more than 0.1% is trigger for making orders against price move.
+- Take profit: 0.12%.
+- Leverage: Cross.
 - Stoploss: 10%.
-- Процент входа 3%, каждый следующий ордер +3%. 
-С учетом лимитного входа и выхода получаем: 0.12% + 0.05% с одной сделки.
+- Percent of balance on first order 3%, each next order quantity +3% to first order quantity. 
 
-### Известные проблемы
-При сверх высокой волатильности имеются проблемы с созданием ордеров. Т.к. при создание ордеров бот проверяет наличие этих ордеров и, в случае их отсутствия, создает дополнительные, то в момент высокой волатильности биржа не успевает обработать ордера и бот создает еще пачку, т.к. не видит предыдущие.
+### Problems
+When volatility is extremly high encouter problems with orders creation. Looks like Bybit exchange can't handle so many trades at once.  
+Searching for solutions.
 
 ##### Imports
 - github.com/frankrap/bybit-api/rest
