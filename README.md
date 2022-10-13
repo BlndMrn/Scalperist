@@ -14,7 +14,3 @@ Searching for solutions.
 ##### Imports
 - github.com/frankrap/bybit-api/rest
 
-### Donations
-BTC: 1DXBapnm5H8djZBEBd1LKSYpy6hRepBr7u  
-ETH ERC20: 0x8a5df2a88a6f7c4116d6ff590a0eb2102cdae5b6  
-USDT TRC20: TEWZoBgyLDRHWqKCCEjSkqRW1WnB3WL2hR  
