@@ -1,4 +1,4 @@
-# Scalperist
+# Scalperist #DEPRECATED (Не актуально)
 Language: [Ru](https://github.com/BlndMrn/Scalperist/blob/main/readme/readme.ru.md)  
 [Trades example](https://www.youtube.com/watch?v=ys-YOsoCF34)  
 Bot trades on high volatility markets.  Price change on more than 0.1% is trigger for making orders against price move.
